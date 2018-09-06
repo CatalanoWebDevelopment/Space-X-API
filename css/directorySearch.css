@@ -13,6 +13,15 @@ a.visibleText {
 input#searchInput {
     text-align: center;
 }
+div#resultsDiv {
+    height: 100%;
+}
+p.first {
+    padding-top: 2em;
+}
+p.li {
+    line-height: 1.2em;
+}
 
 /* <---- END CUSTOM CSS STLES ----> */
 
