@@ -12,6 +12,10 @@ document.getElementById('directorySearchForm').addEventListener('submit', functi
             console.log(json)
             let missions = json
             
+            while (resultsUL.firstChild) {
+                resultsUL.removeChild(resultsUL.firstChild)
+            }
+            
             missions.map(mission => {
                 let flightNumber = mission.flight_number;
                 let missionName = mission.mission_name;
